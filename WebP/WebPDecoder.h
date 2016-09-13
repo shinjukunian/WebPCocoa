@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WebPDecoder2 : NSObject
+@interface WebPDecoder : NSObject
 
 
 @property (readonly) NSUInteger numberOfFrames;

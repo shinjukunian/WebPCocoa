@@ -34,7 +34,7 @@ typedef struct {
 static const int kNumChannels = 4;
 
 
-@interface WebPDecoder2 ()
+@interface WebPDecoder ()
 
 @property NSURL *imageURL;
 @property BOOL shouldCache;
@@ -47,7 +47,7 @@ static const int kNumChannels = 4;
 
 
 
-@implementation WebPDecoder2{
+@implementation WebPDecoder{
     AnimatedImage _images;
     NSMutableArray *_tStamps;
     NSMutableArray *_tStampsRel;
