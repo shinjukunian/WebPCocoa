@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B71E39391D87FCA800F7A22B /* WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39361D87FCA800F7A22B /* WebP.h */; };
+		B71E39391D87FCA800F7A22B /* WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39361D87FCA800F7A22B /* WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71E393A1D87FCA800F7A22B /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39371D87FCA800F7A22B /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71E393B1D87FCA800F7A22B /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E39381D87FCA800F7A22B /* WebPDecoder.m */; };
 		B71E393E1D87FCD000F7A22B /* WebPEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E393C1D87FCD000F7A22B /* WebPEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -369,6 +369,7 @@
 				B71E39351D87FC6E00F7A22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
