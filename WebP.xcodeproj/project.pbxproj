@@ -12,16 +12,17 @@
 		B71E393B1D87FCA800F7A22B /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E39381D87FCA800F7A22B /* WebPDecoder.m */; };
 		B71E393E1D87FCD000F7A22B /* WebPEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E393C1D87FCD000F7A22B /* WebPEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71E393F1D87FCD000F7A22B /* WebPEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E393D1D87FCD000F7A22B /* WebPEncoder.m */; };
-		B71E39441D87FCE500F7A22B /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71E39411D87FCE500F7A22B /* libwebp.a */; };
-		B71E39451D87FCE500F7A22B /* libwebpdemux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71E39421D87FCE500F7A22B /* libwebpdemux.a */; };
-		B71E39461D87FCE500F7A22B /* libwebpmux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71E39431D87FCE500F7A22B /* libwebpmux.a */; };
 		B71E394E1D87FD1300F7A22B /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = B71E39471D87FD1300F7A22B /* COPYING */; };
-		B71E394F1D87FD1300F7A22B /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39481D87FD1300F7A22B /* decode.h */; };
-		B71E39501D87FD1300F7A22B /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39491D87FD1300F7A22B /* demux.h */; };
-		B71E39511D87FD1300F7A22B /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E394A1D87FD1300F7A22B /* encode.h */; };
-		B71E39521D87FD1300F7A22B /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E394B1D87FD1300F7A22B /* mux_types.h */; };
-		B71E39531D87FD1300F7A22B /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E394C1D87FD1300F7A22B /* mux.h */; };
-		B71E39541D87FD1300F7A22B /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E394D1D87FD1300F7A22B /* types.h */; };
+		B76AE9DF1D9926EF0034D202 /* libwebpdemux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76AE9DC1D9926EF0034D202 /* libwebpdemux.a */; };
+		B76AE9E01D9926EF0034D202 /* libwebpmux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76AE9DD1D9926EF0034D202 /* libwebpmux.a */; };
+		B76AE9E11D9926EF0034D202 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76AE9DE1D9926EF0034D202 /* libwebp.a */; };
+		B76AE9E91D9927290034D202 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E21D9927290034D202 /* demux.h */; };
+		B76AE9EA1D9927290034D202 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E31D9927290034D202 /* mux_types.h */; };
+		B76AE9EB1D9927290034D202 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E41D9927290034D202 /* mux.h */; };
+		B76AE9EC1D9927290034D202 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E51D9927290034D202 /* types.h */; };
+		B76AE9ED1D9927290034D202 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E61D9927290034D202 /* decode.h */; };
+		B76AE9EE1D9927290034D202 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E71D9927290034D202 /* encode.h */; };
+		B76AE9EF1D9927290034D202 /* extras.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E81D9927290034D202 /* extras.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +33,17 @@
 		B71E39381D87FCA800F7A22B /* WebPDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPDecoder.m; sourceTree = "<group>"; };
 		B71E393C1D87FCD000F7A22B /* WebPEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPEncoder.h; sourceTree = "<group>"; };
 		B71E393D1D87FCD000F7A22B /* WebPEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPEncoder.m; sourceTree = "<group>"; };
-		B71E39411D87FCE500F7A22B /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebp.a; sourceTree = "<group>"; };
-		B71E39421D87FCE500F7A22B /* libwebpdemux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebpdemux.a; sourceTree = "<group>"; };
-		B71E39431D87FCE500F7A22B /* libwebpmux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebpmux.a; sourceTree = "<group>"; };
 		B71E39471D87FD1300F7A22B /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		B71E39481D87FD1300F7A22B /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
-		B71E39491D87FD1300F7A22B /* demux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
-		B71E394A1D87FD1300F7A22B /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
-		B71E394B1D87FD1300F7A22B /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
-		B71E394C1D87FD1300F7A22B /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
-		B71E394D1D87FD1300F7A22B /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		B76AE9DC1D9926EF0034D202 /* libwebpdemux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebpdemux.a; sourceTree = "<group>"; };
+		B76AE9DD1D9926EF0034D202 /* libwebpmux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebpmux.a; sourceTree = "<group>"; };
+		B76AE9DE1D9926EF0034D202 /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebp.a; sourceTree = "<group>"; };
+		B76AE9E21D9927290034D202 /* demux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
+		B76AE9E31D9927290034D202 /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
+		B76AE9E41D9927290034D202 /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
+		B76AE9E51D9927290034D202 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		B76AE9E61D9927290034D202 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		B76AE9E71D9927290034D202 /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
+		B76AE9E81D9927290034D202 /* extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extras.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71E39461D87FCE500F7A22B /* libwebpmux.a in Frameworks */,
-				B71E39441D87FCE500F7A22B /* libwebp.a in Frameworks */,
-				B71E39451D87FCE500F7A22B /* libwebpdemux.a in Frameworks */,
+				B76AE9E01D9926EF0034D202 /* libwebpmux.a in Frameworks */,
+				B76AE9DF1D9926EF0034D202 /* libwebpdemux.a in Frameworks */,
+				B76AE9E11D9926EF0034D202 /* libwebp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,15 +94,16 @@
 			isa = PBXGroup;
 			children = (
 				B71E39471D87FD1300F7A22B /* COPYING */,
-				B71E39481D87FD1300F7A22B /* decode.h */,
-				B71E39491D87FD1300F7A22B /* demux.h */,
-				B71E394A1D87FD1300F7A22B /* encode.h */,
-				B71E394B1D87FD1300F7A22B /* mux_types.h */,
-				B71E394C1D87FD1300F7A22B /* mux.h */,
-				B71E394D1D87FD1300F7A22B /* types.h */,
-				B71E39411D87FCE500F7A22B /* libwebp.a */,
-				B71E39421D87FCE500F7A22B /* libwebpdemux.a */,
-				B71E39431D87FCE500F7A22B /* libwebpmux.a */,
+				B76AE9E21D9927290034D202 /* demux.h */,
+				B76AE9E31D9927290034D202 /* mux_types.h */,
+				B76AE9E41D9927290034D202 /* mux.h */,
+				B76AE9E51D9927290034D202 /* types.h */,
+				B76AE9E61D9927290034D202 /* decode.h */,
+				B76AE9E71D9927290034D202 /* encode.h */,
+				B76AE9E81D9927290034D202 /* extras.h */,
+				B76AE9DC1D9926EF0034D202 /* libwebpdemux.a */,
+				B76AE9DD1D9926EF0034D202 /* libwebpmux.a */,
+				B76AE9DE1D9926EF0034D202 /* libwebp.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -112,14 +115,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76AE9E91D9927290034D202 /* demux.h in Headers */,
 				B71E393E1D87FCD000F7A22B /* WebPEncoder.h in Headers */,
+				B76AE9EE1D9927290034D202 /* encode.h in Headers */,
+				B76AE9ED1D9927290034D202 /* decode.h in Headers */,
+				B76AE9EC1D9927290034D202 /* types.h in Headers */,
+				B76AE9EA1D9927290034D202 /* mux_types.h in Headers */,
+				B76AE9EB1D9927290034D202 /* mux.h in Headers */,
+				B76AE9EF1D9927290034D202 /* extras.h in Headers */,
 				B71E393A1D87FCA800F7A22B /* WebPDecoder.h in Headers */,
-				B71E39511D87FD1300F7A22B /* encode.h in Headers */,
-				B71E39501D87FD1300F7A22B /* demux.h in Headers */,
-				B71E39521D87FD1300F7A22B /* mux_types.h in Headers */,
-				B71E39531D87FD1300F7A22B /* mux.h in Headers */,
-				B71E39541D87FD1300F7A22B /* types.h in Headers */,
-				B71E394F1D87FD1300F7A22B /* decode.h in Headers */,
 				B71E39391D87FCA800F7A22B /* WebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
