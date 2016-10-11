@@ -51,6 +51,7 @@ static const int kNumChannels = 4;
     AnimatedImage _images;
     NSMutableArray *_tStamps;
     NSMutableArray *_tStampsRel;
+    NSMutableArray *_tDurations;
     NSUInteger _numFr;
 }
 
@@ -96,7 +97,7 @@ static const int kNumChannels = 4;
     _tStamps=[NSMutableArray new];
     _tStampsRel=[NSMutableArray new];
     [_tStamps addObject:@(0)];
-    
+    _tDurations=[NSMutableArray new];
     WebPData data;
     WebPDataInit(&data);
     
@@ -114,6 +115,7 @@ static const int kNumChannels = 4;
         NSUInteger size=_images.canvas_width*_images.canvas_height*kNumChannels;
         DecodedFrame frame=_images.frames[i];
         elapsedTime+=frame.duration;
+        [_tDurations addObject:@(frame.duration)];
         CGDataProviderRef dataProvider=CGDataProviderCreateWithData(NULL, frame.rgba, size, releaseImageData);
         CGBitmapInfo bitmapInfo= kCGBitmapByteOrderDefault | kCGImageAlphaLast;
         CGImageRef imageRef = CGImageCreate(_images.canvas_width, _images.canvas_height, 8, 32, _images.canvas_width*4, colorSpace, bitmapInfo, dataProvider, NULL, false, kCGRenderingIntentDefault);
@@ -170,6 +172,11 @@ static const int kNumChannels = 4;
         
     }
     return nil;
+}
+
+
+-(NSArray*)durations{
+    return _tDurations.copy;
 }
 
 -(NSUInteger)numberOfFrames{

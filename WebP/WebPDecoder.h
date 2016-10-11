@@ -15,6 +15,7 @@
 @property (readonly) CGSize frameSize;
 @property (readonly) NSArray <NSNumber*>*_Nonnull timeStamps;
 @property (readonly) NSArray <NSNumber*>*_Nonnull relativeTimeStamps;
+@property (readonly) NSArray <NSNumber*>*_Nonnull durations;
 
 
 -(instancetype _Nonnull)initWithURL:(NSURL* _Nonnull)url shouldCache:(BOOL)cache;
