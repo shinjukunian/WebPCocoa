@@ -1,0 +1,3 @@
+./autogen.sh
+./configure --enable-libwebpmux  --enable-libwebpdemux --disable-png --disable-jpeg --disable-gif --disable-tiff CFLAGS="-mmacosx-version-min=10.11"
+make
