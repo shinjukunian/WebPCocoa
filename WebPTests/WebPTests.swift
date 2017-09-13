@@ -36,13 +36,6 @@ class WebPTests: XCTestCase {
     }
     
     override func tearDown() {
-        do{
-            try FileManager.default.removeItem(at: self.outURL)
-        }
-        catch let error{
-            print(error)
-        }
-        
         super.tearDown()
     }
     
@@ -68,6 +61,7 @@ class WebPTests: XCTestCase {
             XCTAssertNotNil(url, "Encoding failed")
             expectation.fulfill()
         })
+        
         self.waitForExpectations(timeout: 10, handler: {_ in
             
             let decoder=WebPDecoder(url: self.outURL, shouldCache: true)
@@ -83,6 +77,15 @@ class WebPTests: XCTestCase {
             }
             
         })
+        
+        self.addTeardownBlock {
+            do{
+                try FileManager.default.removeItem(at: self.outURL)
+            }
+            catch let error{
+                print(error)
+            }
+        }
     }
     
     

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebP/WebPEncoder.m"
-            timestampString = "527000094.963149"
+            timestampString = "527000281.172593"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "176"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebP/WebPEncoder.m"
-            timestampString = "527000094.963255"
+            timestampString = "527000281.172696"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
@@ -42,55 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebPTests/WebPTests.swift"
-            timestampString = "527000094.963318"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "testEncoding()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WebPTests.WebPTests.testEncoding() -&gt; ()"
-                  moduleName = "WebPTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
-                  timestampString = "526999322.468557"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "27">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Foundation.URL) -&gt; Swift.Optional&lt;__ObjC.CGImage&gt; in WebPTests.WebPTests.testEncoding() -&gt; ()"
-                  moduleName = "WebPTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
-                  timestampString = "526999322.470752"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "15">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WebPTests/WebPTests.swift"
-            timestampString = "527000094.963875"
+            timestampString = "527000281.17333"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
