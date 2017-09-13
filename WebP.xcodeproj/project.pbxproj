@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3188221F695847004E3143 /* WebPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3188211F695846004E3143 /* WebPTests.swift */; };
+		5A3188241F695847004E3143 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71E392B1D87FC6E00F7A22B /* WebP.framework */; };
+		5A31882C1F6958D0004E3143 /* GenevaDrive.webp in Resources */ = {isa = PBXBuildFile; fileRef = 5A31882B1F6958C0004E3143 /* GenevaDrive.webp */; };
+		5A31882D1F6958D0004E3143 /* testData in Resources */ = {isa = PBXBuildFile; fileRef = 5A31882A1F6958B0004E3143 /* testData */; };
 		B71E39391D87FCA800F7A22B /* WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39361D87FCA800F7A22B /* WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71E393A1D87FCA800F7A22B /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B71E39371D87FCA800F7A22B /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71E393B1D87FCA800F7A22B /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71E39381D87FCA800F7A22B /* WebPDecoder.m */; };
@@ -26,7 +30,22 @@
 		B76AE9EF1D9927290034D202 /* extras.h in Headers */ = {isa = PBXBuildFile; fileRef = B76AE9E81D9927290034D202 /* extras.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A3188251F695847004E3143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71E39221D87FC6E00F7A22B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71E392A1D87FC6E00F7A22B;
+			remoteInfo = WebP;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A31881F1F695846004E3143 /* WebPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3188211F695846004E3143 /* WebPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPTests.swift; sourceTree = "<group>"; };
+		5A3188231F695847004E3143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A31882A1F6958B0004E3143 /* testData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testData; sourceTree = "<group>"; };
+		5A31882B1F6958C0004E3143 /* GenevaDrive.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenevaDrive.webp; sourceTree = "<group>"; };
 		B71E392B1D87FC6E00F7A22B /* WebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71E392F1D87FC6E00F7A22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71E39361D87FCA800F7A22B /* WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebP.h; sourceTree = "<group>"; };
@@ -49,6 +68,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A31881C1F695846004E3143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3188241F695847004E3143 /* WebP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B71E39271D87FC6E00F7A22B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A3188201F695846004E3143 /* WebPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A31882B1F6958C0004E3143 /* GenevaDrive.webp */,
+				5A31882A1F6958B0004E3143 /* testData */,
+				5A3188211F695846004E3143 /* WebPTests.swift */,
+				5A3188231F695847004E3143 /* Info.plist */,
+			);
+			path = WebPTests;
+			sourceTree = "<group>";
+		};
 		B71E39211D87FC6E00F7A22B = {
 			isa = PBXGroup;
 			children = (
 				B74317B31E15076F007BE0E1 /* Build Instructions */,
 				B71E392D1D87FC6E00F7A22B /* WebP */,
+				5A3188201F695846004E3143 /* WebPTests */,
 				B71E392C1D87FC6E00F7A22B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				B71E392B1D87FC6E00F7A22B /* WebP.framework */,
+				5A31881F1F695846004E3143 /* WebPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +174,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5A31881E1F695846004E3143 /* WebPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3188291F695847004E3143 /* Build configuration list for PBXNativeTarget "WebPTests" */;
+			buildPhases = (
+				5A31881B1F695846004E3143 /* Sources */,
+				5A31881C1F695846004E3143 /* Frameworks */,
+				5A31881D1F695846004E3143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3188261F695847004E3143 /* PBXTargetDependency */,
+			);
+			name = WebPTests;
+			productName = WebPTests;
+			productReference = 5A31881F1F695846004E3143 /* WebPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B71E392A1D87FC6E00F7A22B /* WebP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B71E39331D87FC6E00F7A22B /* Build configuration list for PBXNativeTarget "WebP" */;
@@ -158,9 +216,15 @@
 		B71E39221D87FC6E00F7A22B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "telethon k.k.";
 				TargetAttributes = {
+					5A31881E1F695846004E3143 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = DVQ96RL2KL;
+						ProvisioningStyle = Automatic;
+					};
 					B71E392A1D87FC6E00F7A22B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = DVQ96RL2KL;
@@ -182,11 +246,21 @@
 			projectRoot = "";
 			targets = (
 				B71E392A1D87FC6E00F7A22B /* WebP */,
+				5A31881E1F695846004E3143 /* WebPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A31881D1F695846004E3143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A31882C1F6958D0004E3143 /* GenevaDrive.webp in Resources */,
+				5A31882D1F6958D0004E3143 /* testData in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B71E39291D87FC6E00F7A22B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +273,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A31881B1F695846004E3143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3188221F695847004E3143 /* WebPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B71E39261D87FC6E00F7A22B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,7 +292,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A3188261F695847004E3143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71E392A1D87FC6E00F7A22B /* WebP */;
+			targetProxy = 5A3188251F695847004E3143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5A3188271F695847004E3143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = WebPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.WebPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5A3188281F695847004E3143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DVQ96RL2KL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = WebPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telethon.WebPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		B71E39311D87FC6E00F7A22B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A3188291F695847004E3143 /* Build configuration list for PBXNativeTarget "WebPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3188271F695847004E3143 /* Debug */,
+				5A3188281F695847004E3143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B71E39251D87FC6E00F7A22B /* Build configuration list for PBXProject "WebP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
