@@ -42,7 +42,7 @@ class WebPTests: XCTestCase {
     
     func testEncoding() {
        
-        let images=self.imageURLS.flatMap({url->CGImage? in
+        let images=self.imageURLS.compactMap({url->CGImage? in
             guard let source=CGImageSourceCreateWithURL(url as CFURL, nil) else{return nil}
             XCTAssert(CGImageSourceGetCount(source) == 1, "Image Source has image count too high")
             return CGImageSourceCreateImageAtIndex(source, 0, nil)
