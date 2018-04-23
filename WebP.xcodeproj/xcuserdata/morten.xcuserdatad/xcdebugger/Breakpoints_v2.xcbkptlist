@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebP/WebPEncoder.m"
-            timestampString = "527000281.172593"
+            timestampString = "546160250.362968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "-encodeFramesToURL:withCompletion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebP/WebPEncoder.m"
-            timestampString = "527000281.172696"
+            timestampString = "546160250.363054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "186"
-            endingLineNumber = "186"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
             landmarkName = "-encodeFramesToURL:withCompletion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,13 +42,140 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebPTests/WebPTests.swift"
-            timestampString = "538539186.553774"
+            timestampString = "546160250.3631181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "imageURLS"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebPTests/WebPTests.swift"
+            timestampString = "546160250.363533"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "testEncoding()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WebPTests.WebPTests.testEncoding() -&gt; ()"
+                  moduleName = "WebPTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
+                  timestampString = "546160181.350284"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.NSNumber) -&gt; Swift.Double in closure #3 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WebPTests.WebPTests.testEncoding() -&gt; ()"
+                  moduleName = "WebPTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
+                  timestampString = "546160181.354269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebP/WebPDecoder.m"
+            timestampString = "546160250.363831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "ReadAnimatedWebP"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebPTests/WebPTests.swift"
+            timestampString = "546160250.3638901"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "testEncoding()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WebPTests.WebPTests.testEncoding() -&gt; ()"
+                  moduleName = "WebPTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
+                  timestampString = "546160252.143151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "2779">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #16 : @autoclosure () throws -&gt; Swift.Bool in closure #3 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WebPTests.WebPTests.testEncoding() -&gt; ()"
+                  moduleName = "WebPTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
+                  timestampString = "546160252.145849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #17 : @autoclosure () -&gt; Swift.String in closure #3 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WebPTests.WebPTests.testEncoding() -&gt; ()"
+                  moduleName = "WebPTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morten/Desktop/xcode/WebP/WebPTests/WebPTests.swift"
+                  timestampString = "546160252.148308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

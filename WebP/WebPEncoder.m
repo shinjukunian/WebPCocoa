@@ -25,6 +25,7 @@
         self.useLossless=NO;
         self.preset=WebPConversionPresetDefault;
         self.quality=75;
+        self.loopCount=0;
     }
     return self;
 }
@@ -33,6 +34,7 @@
 -(void)encodePNGs:(NSArray<NSURL *> *)pngURLs outPath:(NSURL *)outPath size:(CGSize)size withCompletion:(void (^)(NSURL * _Nullable))completion{
     WebPAnimEncoderOptions options;
     WebPAnimEncoderOptionsInit(&options);
+    options.anim_params.loop_count=(int)self.loopCount;
     
     if (CGSizeEqualToSize(size, CGSizeZero)) {
         CGImageSourceRef source=CGImageSourceCreateWithURL((__bridge CFURLRef) pngURLs.firstObject, nil);
@@ -124,6 +126,7 @@
     BOOL success=NO;
     if (!_encoder) {
         WebPAnimEncoderOptionsInit(&_options);
+        _options.anim_params.loop_count=(int)self.loopCount;
         _options.allow_mixed=1;
         CGFloat height=CGImageGetHeight(frame);
         CGFloat width=CGImageGetWidth(frame);

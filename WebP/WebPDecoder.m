@@ -52,6 +52,7 @@ static const int kNumChannels = 4;
     NSMutableArray *_tStamps;
     NSMutableArray *_tStampsRel;
     NSMutableArray *_tDurations;
+    NSUInteger _loopCount;
     NSUInteger _numFr;
 }
 
@@ -110,6 +111,8 @@ static const int kNumChannels = 4;
     self.height=_images.canvas_height;
     self.width=_images.canvas_width;
     _numFr=_images.num_frames;
+    _loopCount=_images.loop_count;
+    
     CGFloat elapsedTime=0;
     for (NSUInteger i=0; i<_images.num_frames; i++) {
         NSUInteger size=_images.canvas_width*_images.canvas_height*kNumChannels;
@@ -196,6 +199,10 @@ static const int kNumChannels = 4;
 
 -(NSArray*)timeStamps{
     return _tStamps.copy;
+}
+
+-(NSUInteger)loopCount{
+    return _loopCount;
 }
 
 -(NSArray*)relativeTimeStamps{

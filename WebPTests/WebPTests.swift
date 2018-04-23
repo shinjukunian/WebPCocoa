@@ -13,6 +13,8 @@ class WebPTests: XCTestCase {
     
     let outURL=URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true).appendingPathComponent("WebP").appendingPathExtension("webp")
     let timeInterval:TimeInterval=0.1
+    let loopCopunt:UInt=5
+    
     lazy var imageURLS:[URL]={
         guard let urls=Bundle(for: type(of: self)).urls(forResourcesWithExtension: nil, subdirectory: "testData")?.sorted(by: {u1,u2 in
             return u1.lastPathComponent.compare(u2.lastPathComponent, options:[.numeric]) == .orderedAscending
@@ -50,6 +52,8 @@ class WebPTests: XCTestCase {
         XCTAssertEqual(images.count, self.imageURLS.count)
         
         let encoder=WebPEncoder()
+        encoder.loopCount=self.loopCopunt
+        
         var startTime:TimeInterval=0
         for image in images{
             let success=encoder.addFrame(image, withTimeStamp: startTime)
@@ -71,6 +75,7 @@ class WebPTests: XCTestCase {
             XCTAssertEqual(decoder.frameSize.height, CGFloat(images.first?.height ?? 0), accuracy: 1, "image width wrong")
             let totalDuration=decoder.durations.map({$0.doubleValue}).reduce(0, +)/1000
             XCTAssertEqual(totalDuration, self.timeInterval*TimeInterval(self.imageURLS.count), accuracy: totalDuration/100, "Total duration Wrong")
+            XCTAssert(decoder.loopCount == self.loopCopunt, "Encoded Loop Count Wrong")
             for i in 0..<decoder.numberOfFrames{
                 let image=decoder.image(at: i)
                 XCTAssertNotNil(image, "image coul not be decoded")

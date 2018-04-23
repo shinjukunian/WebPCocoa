@@ -24,6 +24,7 @@ typedef NS_ENUM(NSUInteger,WebPConversionPreset) {
 @property CGFloat quality;
 @property WebPConversionPreset preset;
 @property BOOL useLossless;
+@property NSUInteger loopCount;
 
 
 -(void)encodePNGs:(NSArray <NSURL*> * _Nonnull )pngURLs outPath:(NSURL* _Nonnull )outPath size:(CGSize)size withCompletion:(void(^_Nonnull)(NSURL * _Nullable outURL))completion;

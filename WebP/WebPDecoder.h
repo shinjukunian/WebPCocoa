@@ -16,7 +16,7 @@
 @property (readonly) NSArray <NSNumber*>*_Nonnull timeStamps;
 @property (readonly) NSArray <NSNumber*>*_Nonnull relativeTimeStamps;
 @property (readonly) NSArray <NSNumber*>*_Nonnull durations;
-
+@property (readonly) NSUInteger loopCount;
 
 -(instancetype _Nonnull)initWithURL:(NSURL* _Nonnull)url shouldCache:(BOOL)cache;
 -(CGImageRef _Nullable  )imageAtIndex:(NSUInteger)idx  CF_RETURNS_NOT_RETAINED;
